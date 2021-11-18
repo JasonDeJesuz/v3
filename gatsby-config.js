@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Jason De Jesuz is a South African software engineer building software systems for SA fortune 500 companies and startups.',
     siteUrl: 'https://jasondejesuz.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '#', // Path to your image you placed in the 'static' folder
     twitterUsername: '@jasondejesuzz',
   },
   plugins: [
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'JasonDeJesuz',
+        short_name: 'JasonDeJesuz',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

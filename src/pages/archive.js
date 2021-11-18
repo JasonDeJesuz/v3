@@ -29,7 +29,7 @@
 //     tbody tr {
 //       &:hover,
 //       &:focus {
-//         background-color: var(--light-navy);
+//         background-color: var(--light-black);
 //       }
 //     }
 

@@ -1,9 +1,9 @@
 ---
-date: '2017-12-21'
+date: '2021-03-01'
 title: 'Python/Django Backend Engineer'
 company: 'AO Technologies'
 location: 'South Africa'
-range: 'July - December 2017'
+range: 'March - May 2021'
 url: 'https://www.aogroup.co.za/'
 type: 'Contracted through Mashlab'
 ---

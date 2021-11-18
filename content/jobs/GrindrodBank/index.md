@@ -1,9 +1,9 @@
 ---
-date: '2017-12-21'
+date: '2020-04-01'
 title: 'C# MVC & Backend Engineer'
 company: 'Grindrod Bank'
 location: 'South Africa'
-range: 'July - December 2017'
+range: 'April 2020 - August 2020'
 url: 'https://www.grindrodbank.co.za/'
 type: 'Contracted through Mashlab'
 ---

@@ -11,4 +11,8 @@ type: 'Permanent Contractor'
 - Developed and shipped innovative web applications (Frontend and Backend) for partner companies using C#
 - Developed and shipped internal tools to help with daily tasks of development.
 - Developed and shipped internal website builder to maximize output and minimize input for creating new sites using Umbraco CMS.
-- Managing a team of developers and be in charge of project management for multiple projects.
+- Managing a team of developers and lead developer on all .
+- Built a Trading algorithm and Python bot for a fx trading company.
+- Built a Crypto Currencies trading algorithm and bot for a Crypto trading company.
+- Main developer on [Astron Energy]('https://astronenergy.co.za')'s rebrand from Caltex.
+- Built a SaaS Deceased estates application.

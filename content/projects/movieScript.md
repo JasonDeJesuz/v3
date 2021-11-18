@@ -1,10 +1,11 @@
 ---
-date: '2019-01-01'
+date: '1'
 title: 'Movie Script iMessage Reader'
 github: 'https://github.com/bchiang7/bchiang7.github.io'
 external: ''
 tech:
   - iOS
+  - macOS
   - Python
 showInProjects: true
 ---

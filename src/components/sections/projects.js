@@ -71,7 +71,7 @@ const StyledProject = styled.li`
     height: 100%;
     padding: 2rem 1.75rem;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
+    background-color: var(--light-black);
     transition: var(--transition);
   }
 
@@ -80,7 +80,7 @@ const StyledProject = styled.li`
     margin-bottom: 35px;
 
     .folder {
-      color: var(--green);
+      color: var(--purple);
       svg {
         width: 40px;
         height: 40px;

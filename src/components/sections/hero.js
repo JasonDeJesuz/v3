@@ -18,7 +18,7 @@ const StyledHeroSection = styled.section`
 
   h1 {
     margin: 0 0 30px 4px;
-    color: var(--green);
+    color: var(--purple);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
     font-weight: 400;
@@ -60,7 +60,7 @@ const Hero = () => {
 
   const one = <h1>Hello, my name is</h1>;
   const two = <h2 className="big-heading">Jason De Jesuz.</h2>;
-  const three = <h3 className="big-heading">I build stuff for the web.</h3>;
+  const three = <h3 className="big-heading">I build software for the web.</h3>;
   const four = (
     <>
       <p>

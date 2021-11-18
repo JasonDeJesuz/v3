@@ -1,10 +1,10 @@
 ---
-date: '2017-12-21'
+date: '2019-07-01'
 title: 'Xamarin Mobile & C# Backend Engineer'
 company: 'Digiterra'
 location: 'South Africa'
-range: 'July - December 2017'
-url: '#'
+range: 'August 2019 - December 2019'
+url: 'https://www.digiterragroup.com/'
 type: 'Contracted through Mashlab'
 ---
 

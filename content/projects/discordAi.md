@@ -1,5 +1,5 @@
 ---
-date: '2021-01-01'
+date: '1'
 title: 'Discord AI Chat Bot'
 github: 'https://github.com/bchiang7/bchiang7.github.io'
 external: ''

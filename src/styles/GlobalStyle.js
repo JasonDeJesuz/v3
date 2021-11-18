@@ -25,24 +25,24 @@ const GlobalStyle = createGlobalStyle`
   }
 
   :focus {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--purple);
     outline-offset: 3px;
   }
 
   /* Scrollbar Styles */
   html {
     scrollbar-width: thin;
-    scrollbar-color: var(--dark-slate) var(--navy);
+    scrollbar-color: var(--dark-slate) var(--black);
   }
   body::-webkit-scrollbar {
     width: 12px;
   }
   body::-webkit-scrollbar-track {
-    background: var(--navy);
+    background: var(--black);
   }
   body::-webkit-scrollbar-thumb {
     background-color: var(--dark-slate);
-    border: 3px solid var(--navy);
+    border: 3px solid var(--black);
     border-radius: 10px;
   }
 
@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
+    background-color: var(--black);
     color: var(--slate);
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
@@ -173,7 +173,7 @@ const GlobalStyle = createGlobalStyle`
       counter-increment: section;
       content: '0' counter(section) '.';
       margin-right: 10px;
-      color: var(--green);
+      color: var(--purple);
       font-family: var(--font-mono);
       font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
       font-weight: 400;
@@ -240,7 +240,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      color: var(--green);
+      color: var(--purple);
     }
 
     &.inline-link {
@@ -282,7 +282,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     & > code {
-      background-color: var(--light-navy);
+      background-color: var(--light-black);
       color: var(--white);
       font-size: var(--fz-sm);
       border-radius: var(--border-radius);
@@ -304,14 +304,14 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: var(--green);
+          color: var(--purple);
         }
       }
     }
   }
 
   blockquote {
-    border-left-color: var(--green);
+    border-left-color: var(--purple);
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;
@@ -351,7 +351,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:focus,
     &:active {
-      background-color: var(--green);
+      background-color: var(--purple);
       color: var(--navy);
       top: 0;
       left: 0;
@@ -363,18 +363,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: var(--green);
+    color: var(--purple);
   }
 
   .overline {
-    color: var(--green);
+    color: var(--purple);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
   }
 
   .subtitle {
-    color: var(--green);
+    color: var(--purple);
     margin: 0 0 20px 0;
     font-size: var(--fz-md);
     font-family: var(--font-mono);
@@ -397,7 +397,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     margin-bottom: 50px;
-    color: var(--green);
+    color: var(--purple);
 
     .arrow {
       display: block;

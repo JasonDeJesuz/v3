@@ -1,9 +1,9 @@
 ---
-date: '2017-12-21'
+date: '2018-01-01'
 title: 'Laserfiche Engineer'
 company: 'Daisy Business Solutions'
 location: 'South Africa'
-range: 'July - December 2017'
+range: 'Jan 2018 - June 2019'
 url: '#'
 type: 'Full time'
 ---

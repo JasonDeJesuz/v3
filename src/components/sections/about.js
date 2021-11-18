@@ -39,7 +39,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--purple);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -61,7 +61,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--purple);
 
     &:hover,
     &:focus {
@@ -106,7 +106,7 @@ const StyledPic = styled.div`
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var(--purple);
       top: 20px;
       left: 20px;
       z-index: -1;
@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'C#', 'Python (Django)', '.Net Core (2.1+)', 'C# MVC', 'MS SQL Server'];
+  const skills = ['Umbraco', 'Umbraco Cloud', 'JavaScript (ES6+)', 'Python (Django)', 'React', 'C# .net Core', '.Net Core (2.1+)', 'C# MVC', 'Fluter', 'MS SQL Server', 'PostgreSql'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -146,7 +146,7 @@ const About = () => {
               <a href="https://www.grindrodbank.co.za/">a bank</a>,{' '}
               <a href="https://www.payzilch.com/how-zilch-works/">a start-up</a>,{' '}
               <a href="https://www.webuycars.co.za/">a huge corporation</a>, and I've had the opportunity to start {' '}
-              <a href="http://www.lyemac.co.za/">my own company</a>. My
+              <a href="http://www.lyemac.co.za/">my own tech company</a>. My
               main focus these days is to build innovative{' '}
               <a href="https://en.wikipedia.org/wiki/Software_as_a_service">SaaS</a>{' '}
               solutions that solve real world problems at {' '}
@@ -154,7 +154,7 @@ const About = () => {
             </p>
 
             <p>
-              I've also been a day trader for the last 3 years and recently started day trading Crypto Currencies.
+              I've also been a Cryptocurrencies day trader for the past 2 years.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

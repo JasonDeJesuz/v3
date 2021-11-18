@@ -68,7 +68,7 @@ const StyledPost = styled.li`
     padding: 2rem 1.75rem;
     border-radius: var(--border-radius);
     transition: var(--transition);
-    background-color: var(--light-navy);
+    background-color: var(--light-black);
 
     header,
     a {
@@ -78,7 +78,7 @@ const StyledPost = styled.li`
 
   .post__icon {
     ${({ theme }) => theme.mixins.flexBetween};
-    color: var(--green);
+    color: var(--purple);
     margin-bottom: 30px;
     margin-left: -5px;
 
@@ -130,7 +130,7 @@ const StyledPost = styled.li`
     list-style: none;
 
     li {
-      color: var(--green);
+      color: var(--purple);
       font-family: var(--font-mono);
       font-size: var(--fz-xxs);
       line-height: 1.75;

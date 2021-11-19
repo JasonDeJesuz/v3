@@ -4,6 +4,7 @@ title: 'NFT Marketplace'
 github: ''
 external: ''
 tech:
+  - Blockchain
   - SOL
   - React
 company: 'Personal'

@@ -4,7 +4,7 @@ title: 'Laserfiche Engineer'
 company: 'Daisy'
 location: 'South Africa'
 range: 'Jan 2018 - June 2019'
-url: '#'
+url: 'https://daisysolutions.co.za/'
 type: 'Full time'
 ---
 

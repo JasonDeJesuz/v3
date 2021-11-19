@@ -1,5 +1,5 @@
 ---
-date: '2019-06-01'
+date: '2021-11-01'
 title: 'Software Engineer'
 company: 'Mashlab Digital'
 location: 'South Africa'

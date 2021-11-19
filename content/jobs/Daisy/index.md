@@ -1,7 +1,7 @@
 ---
 date: '2018-01-01'
 title: 'Laserfiche Engineer'
-company: 'Daisy Business Solutions'
+company: 'Daisy'
 location: 'South Africa'
 range: 'Jan 2018 - June 2019'
 url: '#'

@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Umbraco', 'Umbraco Cloud', 'JavaScript (ES6+)', 'Python (Django)', 'React', 'C# .net Core', '.Net Core (2.1+)', 'C# MVC', 'Fluter', 'MS SQL Server', 'PostgreSql'];
+  const skills = ['Umbraco', 'Umbraco Cloud', 'JavaScript (ES6+)', 'Python (Django)', 'React', 'C# .net Core', '.Net Core (2.1+)', 'C# MVC', 'Flutter', 'MS SQL Server', 'PostgreSql'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>

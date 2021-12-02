@@ -108,7 +108,7 @@ const Footer = () => {
         <a href="https://github.com/JasonDeJesuz/v3">
           <div>Designed &amp; Built with ❤️ by Jason De Jesuz.</div>
         </a>
-        <a href="https://github.com/bchiang7/v4">
+        <a href="https://github.com/bchiang7">
           <div>Inspired by Brittany Chiang.</div>
         </a>
       </StyledCredit>

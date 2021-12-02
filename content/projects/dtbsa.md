@@ -7,7 +7,7 @@ tech:
     - Umbraco
     - C#
     - SQL Server
-showInProjects: true
+showInProjects: false
 ---
 
 Website built for DTBSA, while working at [Mashlab]('https://fuso.co.za') using Umbraco and SQL Server.

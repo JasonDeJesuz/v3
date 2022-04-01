@@ -127,7 +127,7 @@ const About = () => {
   }, []);
 
   const skills = ['Umbraco', 'Umbraco Cloud', 'JavaScript (ES6+)', 'Python (Django)', 'React', 'C# .net Core', '.Net Core (2.1+)', 'C# MVC', 'Flutter', 'MS SQL Server', 'PostgreSql'];
-
+  const countries = ['South Africa 🇿🇦', 'United States 🇺🇸', 'Indonesia 🇮🇩', 'Singapore 🇸🇬'];
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -136,26 +136,36 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Jason and I enjoy learning new skills and solving real world problems by using
+              Hello! 👋 My name is Jason and I enjoy learning new skills and solving real world problems by using
               the internet. My journey started in 2018, I solved a Petroleum companies scheduling issue by creating a
-              dashboard with real time data. This process taught me a thing or two about HTML &amp; CSS!
+              dashboard with real time data for them to monitor deliveries of drivers. 
+              This process taught me a thing or two about HTML, CSS and .NET! 👀
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working with{' '}
               <a href="https://www.grindrodbank.co.za/">a bank</a>,{' '}
-              <a href="https://www.payzilch.com/how-zilch-works/">a start-up</a>,{' '}
-              <a href="https://www.webuycars.co.za/">a huge corporation</a>, and I've had the opportunity to start {' '}
+              <a href="https://www.payzilch.com/how-zilch-works/">a start-up</a> (now Double 🦄),{' '}
+              <a href="https://www.mercedes-benz.co.za/">a huge corporation</a>, and I've had the opportunity to start {' '}
               <a href="http://www.lyemac.co.za/">my own tech company</a>. My
               main focus these days is to build innovative{' '}
               <a href="https://en.wikipedia.org/wiki/Software_as_a_service">SaaS</a>{' '}
-              solutions that solve real world problems at {' '}
-              <a href="http://www.mashlab.digital/">Mashlab</a>. 
+              solutions that solve real world problems.
             </p>
 
             <p>
-              I've also been a Cryptocurrencies day trader for the past 2 years.
+              I've also picked up some Cryptocurrency trading along the way. Some good, some not so good. 😉
             </p>
+
+            <p>
+              I posses both South African 🇿🇦 and Portuguese 🇵🇹 citizenship.
+              I have had the the privilege to travel the world the past year, while working remotely.
+              Recently I have been traveling in the following countries:
+            </p>
+
+            <ul className="skills-list">
+              {countries && countries.map((country, i) => <li key={i}>{country}</li>)}
+            </ul>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
@@ -169,7 +179,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.png"
+              src="../../images/me.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

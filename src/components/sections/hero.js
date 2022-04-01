@@ -64,13 +64,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer building software systems for SA fortune 500 companies and startups.
-        Currently, I’m focused on building new and innovative SaaS products
-        at{' '}
-        <a href="http://mashlab.digital" target="_blank" rel="noreferrer">
-          Mashlab
-        </a>
-        .
+        I’m a software engineer building software systems for SA fortune 500 companies and startups. 
+        Currently, I’m focused on building new and innovative products for real world problems while seeing the world. 🌎
       </p>
     </>
   );

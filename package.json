@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "v3",
+  "description": "Personal Website v3",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Jason De Jesuz <dejesuzjason@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/jasondejesuz/v3"
   },
   "keywords": [
     "gatsby"

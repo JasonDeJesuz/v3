@@ -8,8 +8,10 @@ tech:
     - C#
     - SQL Server
     - Angular
+    - HTML5
+    - CSS3
 showInProjects: true
 ---
 
-Website built for Automark South Africa, while working at [Mashlab]('https://automark.co.za') using Umbraco and SQL Server.
-Built the integration between third party services, which lists all of the stock on the website.
+Website built for Automark South Africa using Umbraco and SQL Server.
+My responsibilities include working on the bugs fixes, monthly upgraded, and re-factoring of the entire stock pulling system without any guidance from project managers and more experienced developers. My responsibilities also include sitting in client meetings, with Toyota making upgrades to existing functions.

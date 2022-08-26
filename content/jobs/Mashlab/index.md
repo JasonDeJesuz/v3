@@ -1,6 +1,6 @@
 ---
 date: '2021-11-01'
-title: 'Software Engineer'
+title: 'Lead Software Engineer'
 company: 'Mashlab Digital'
 location: 'South Africa'
 range: 'June 2019 - Present'

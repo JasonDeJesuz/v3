@@ -5,7 +5,7 @@ company: 'OnLoop'
 location: 'Singapore'
 range: 'August 2022 - Present'
 url: 'https://onloop.io'
-type: 'Permanent Contractor'
+type: 'Independant Contractor'
 ---
 
 - Team lead for the OnLoop Backoffice, Prototype & Support (BPS) squad. Managing 5 engineers.

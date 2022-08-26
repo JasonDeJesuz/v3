@@ -126,8 +126,8 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Umbraco', 'Umbraco Cloud', 'JavaScript (ES6+)', 'Python (Django)', 'React', 'C# .net Core', '.Net Core (2.1+)', 'C# MVC', 'Flutter', 'MS SQL Server', 'PostgreSql'];
-  const countries = ['South Africa 🇿🇦', 'United States 🇺🇸', 'Indonesia 🇮🇩', 'Singapore 🇸🇬'];
+  const skills = ['Umbraco', 'Umbraco Cloud', 'JavaScript (ES6+)', 'Python (Django)', 'React', 'C# .net Core' 'C# MVC', 'Flutter', 'Node.js', 'Vue.js', 'Nest.js', 'Firebase', 'MS SQL Server', 'PostgreSql'];
+  const countries = ['South Africa 🇿🇦', 'United States 🇺🇸', 'Indonesia 🇮🇩', 'Singapore 🇸🇬', 'Belgium 🇧🇪', 'Germany 🇩🇪', 'Netherlands 🇳🇱', 'France 🇫🇷'];
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -148,13 +148,12 @@ const About = () => {
               <a href="https://www.payzilch.com/how-zilch-works/">a start-up</a> (now Double 🦄),{' '}
               <a href="https://www.mercedes-benz.co.za/">a huge corporation</a>, and I've had the opportunity to start {' '}
               <a href="http://www.lyemac.co.za/">my own tech company</a>. My
-              main focus these days is to build innovative{' '}
-              <a href="https://en.wikipedia.org/wiki/Software_as_a_service">SaaS</a>{' '}
-              solutions that solve real world problems.
+              my obsession now is to change the way CTD is used to make teams better at {' '}
+              <a href="https://onloop.io">OnLoop</a>{' '}.
             </p>
 
             <p>
-              I've also picked up some Cryptocurrency trading along the way. Some good, some not so good. 😉
+              I've also picked up some Cryptocurrency trading along the way. 🔥
             </p>
 
             <p>

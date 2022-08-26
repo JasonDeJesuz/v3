@@ -64,20 +64,10 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer building software systems for SA fortune 500 companies and startups. 
-        Currently, I’m focused on building new and innovative products for real world problems while seeing the world. 🌎
+        I’m a CEO / Founder, Crypto Trader and Software Engineer. 🔥
       </p>
     </>
   );
-  // const five = (
-  //   <a
-  //     className="email-link"
-  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
-  //     target="_blank"
-  //     rel="noreferrer">
-  //     Check out my course!
-  //   </a>
-  // );
 
   const items = [one, two, three, four];
 

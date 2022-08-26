@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Umbraco', 'Umbraco Cloud', 'JavaScript (ES6+)', 'Python (Django)', 'React', 'C# .net Core' 'C# MVC', 'Flutter', 'Node.js', 'Vue.js', 'Nest.js', 'Firebase', 'MS SQL Server', 'PostgreSql'];
+  const skills = ['Umbraco', 'Umbraco Cloud', 'JavaScript (ES6+)', 'Python (Django)', 'React', 'C# .net Core', 'C# MVC', 'Flutter', 'Node.js', 'Vue.js', 'Nest.js', 'Firebase', 'MS SQL Server', 'PostgreSql'];
   const countries = ['South Africa 🇿🇦', 'United States 🇺🇸', 'Indonesia 🇮🇩', 'Singapore 🇸🇬', 'Belgium 🇧🇪', 'Germany 🇩🇪', 'Netherlands 🇳🇱', 'France 🇫🇷'];
   return (
     <StyledAboutSection id="about" ref={revealContainer}>

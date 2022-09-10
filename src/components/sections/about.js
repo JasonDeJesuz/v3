@@ -145,36 +145,49 @@ const About = () => {
             <p>
               Fast-forward to today, and I’ve had the privilege of working with{' '}
               <a href="https://www.grindrodbank.co.za/">a bank</a>,{' '}
-              <a href="https://www.payzilch.com/how-zilch-works/">a start-up</a> (now Double 🦄),{' '}
-              <a href="https://www.mercedes-benz.co.za/">a huge corporation</a>, and I've had the opportunity to start {' '}
-              <a href="http://www.lyemac.co.za/">my own tech company</a>. My
-              my obsession now is to change the way CTD is used to make teams better at {' '}
-              <a href="https://onloop.io">OnLoop</a>{' '}.
+              <a href="https://www.payzilch.com/how-zilch-works/">now double 🦄 start-up</a>,{' '}
+              <a href="https://www.mercedes-benz.co.za/">a huge corporation</a>, and through blood sweet and tears in my early twenties I am have found purpose in {' '}
+              <a href="https://dejesz.com">my own company</a>. 
+              I am currently helping change performance reviews are used inside companies, by embracing Collabrotative Team Development (CTD) {' '}
+              <a href="https://onloop.io">OnLoop</a> <a href="#">#perfsucks</a>{' '}.
             </p>
 
             <p>
-              I've also picked up some Cryptocurrency trading along the way. 🔥
+              Here are a few technologies I’ve been working with recently:
+            </p>
+            
+            <ul className="skills-list">
+              {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+            </ul>
+
+            <br/>
+
+            <p>
+              I have had the privilege of making some difficult decisions in my life, and going through some early heartaches to reach success.
+              I've had the opportunity to work in the Cryptocurrency trading, and algorithmic trading field where I have had my fair share of character building days, 
+              nonetheless I have never given up. Today my pride lies in <a href="https://dejesz.com">DEJESZ</a> which is a mixture of my failures, and successes.
+              I am deeply invested into Crypto Trading, Algorithmic Trading software Development, and Property Investments.
             </p>
 
             <p>
-              I posses both South African 🇿🇦 and Portuguese 🇵🇹 citizenship.
-              I have had the the privilege to travel the world the past year, while working remotely.
-              Recently I have been traveling in the following countries:
+              I posses both South African 🇿🇦 and Portuguese 🇵🇹 citizenship. 
+              I love travelling the world, and networking with successful founders from all over the world!
+              I am currently living in Singapore 🇸🇬
+            </p>
+
+            <br/>
+
+            <p>
+              My personal list of Countries visited include:
             </p>
 
             <ul className="skills-list">
               {countries && countries.map((country, i) => <li key={i}>{country}</li>)}
             </ul>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
-
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
         </StyledText>
 
-        <StyledPic>
+        {/* <StyledPic>
           <div className="wrapper">
             <StaticImage
               className="img"
@@ -185,7 +198,7 @@ const About = () => {
               alt="Headshot"
             />
           </div>
-        </StyledPic>
+        </StyledPic> */}
       </div>
     </StyledAboutSection>
   );

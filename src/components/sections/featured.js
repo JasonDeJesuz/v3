@@ -373,7 +373,7 @@ const Featured = () => {
                       dangerouslySetInnerHTML={{ __html: html }}
                     />
 
-                    {tech.length && (
+                    {tech != null && tech.length && (
                       <ul className="project-tech-list">
                         {tech.map((tech, i) => (
                           <li key={i}>{tech}</li>

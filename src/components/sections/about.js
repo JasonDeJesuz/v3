@@ -187,18 +187,18 @@ const About = () => {
           </div>
         </StyledText>
 
-        {/* <StyledPic>
+        <StyledPic>
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.JPG"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
             />
           </div>
-        </StyledPic> */}
+        </StyledPic>
       </div>
     </StyledAboutSection>
   );
